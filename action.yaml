@@ -1,5 +1,5 @@
 name: AUR CI
-description: Lint, validate, build, and release an AUR package in an Arch Linux build environment
+description: Continuous integration for AUR packages
 author: Sergey Kanafyev
 
 branding:
