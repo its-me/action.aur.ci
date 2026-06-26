@@ -14,7 +14,7 @@ inputs:
 
 runs:
   using: docker
-  image: ghcr.io/its-me/arch-linux:builder
+  image: docker://ghcr.io/its-me/arch-linux:builder
   entrypoint: entrypoint.sh
   env:
     GITHUB_TOKEN: ${{ inputs.github-token }}
