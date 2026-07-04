@@ -1,4 +1,4 @@
-FROM ghcr.io/its-me/arch-linux:builder
+FROM ghcr.io/its-me/archlinux:builder
 
 COPY entrypoint.sh /entrypoint.sh
 
